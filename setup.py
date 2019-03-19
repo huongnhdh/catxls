@@ -12,6 +12,8 @@ setup(
         ]
     ),
     install_requires=[
+      'pyexcel==0.5.13',
+      'pyexcel-xls==0.5.8'
     ],
     entry_points="""
     [console_scripts]
