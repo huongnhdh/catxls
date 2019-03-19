@@ -3,14 +3,17 @@
 """The script change a file md table to excel
 """
 import sys
-from app.helpers.reading_params import args
+import logging
+from app.helpers.reading_params import get_argument
 
-def __check_validate(file_input,, file_output):
-    """check the file in put as md and file excel is not exit"""
-    
-def _main(argv):
-    """Main excuter"""
+def check_validate(file_input, file_output):
+  """check the file in put as md and file excel is not exit"""
+  pass
 
-    pass
+def _main(argv=get_argument()):
+  """Main executer"""
+  logging.warning('%s before you %s', 'Look', 'leap!')
+  pass
+
 if __name__ == '__main__':
-    _main(args)
+    _main()
