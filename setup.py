@@ -15,6 +15,6 @@ setup(
     ],
     entry_points="""
     [console_scripts]
-    md_xlsx=app.scripts.md_xlsx:_main
+    catxlsx=app.scripts.catxlsx:_main
     """
 )
