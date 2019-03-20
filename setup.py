@@ -23,9 +23,9 @@ setup(
       'pyexcel-xls==0.5.8'
     ],
     classifiers=[
-    'Development Status :: 5 - Production/Stable',
-    'Intended Audience :: Developers',
-    'Topic :: Software Development :: Build System :: System Shells',
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: System Administrators',
+    'Topic :: System :: System Shells',
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.4',
