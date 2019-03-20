@@ -6,7 +6,7 @@ setup(
     name='catxls',
     version='0.0.1',
     packages=find_packages(
-        '*.py',
+        '.',
         exclude=[
             '*.tests', '*.tests.*', 'tests.*', 'tests'
         ]
