@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #!-*-coding:utf8-*-
 """File setup.py"""
 from setuptools import setup, find_packages
 setup(
     name='catxls',
-    version='0.0.1',
+    version='0.0.2',
     packages=find_packages(
         '.',
         exclude=[
@@ -16,7 +16,7 @@ setup(
     author='huongnhd',
     author_email = 'huong.nhdh@gmail.com',
     url = 'https://github.com/huongnhdh/catxls.git',
-    download_url = 'https://github.com/huongnhdh/catxls/archive/v_001.tar.gz',
+    download_url = 'https://github.com/huongnhdh/catxls/archive/v_002.tar.gz',
     keywords = ['xls', 'xlsx', 'cat xlsx', 'server'],
     install_requires=[
       'pyexcel==0.5.13',

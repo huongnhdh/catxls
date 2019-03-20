@@ -1,4 +1,4 @@
-#!/usr/local/env python
+#!/usr/bin/env python3
 #! -*- coding:utf8 -*-
 """The script change a file md table to excel
 """
