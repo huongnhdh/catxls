@@ -1,5 +1,5 @@
 # Catxls package
-* catxlsx: Reading xlsx on server same cat command
+catxlsx: Reading xlsx on server same cat command
 # Installation
 ```bash
 pip3 install catxls
