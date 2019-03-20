@@ -1,6 +1,11 @@
-# catxlsx package: 
+# Catxls package
 * catxlsx: Reading xlsx on server same cat command
-# For development
+# Installation
+```
+pip3 install catxls
+```
+# Development guide
+### catxlsx package: 
 ## requirement
 - virtualenv
 - python 3+
