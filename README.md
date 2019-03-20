@@ -1,4 +1,4 @@
-# MrBean: 
+# catxlsx package: 
 * catxlsx: Reading xlsx on server same cat command
 # For development
 ## requirement
