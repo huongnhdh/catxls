@@ -1,10 +1,12 @@
 # Catxls package
 catxlsx: Reading xlsx on server same cat command
 # Installation
+
 ```bash
 pip3 install catxls
 ```
 # How to use
+
 ```bash
 catxls -h
 catxls <file xls or file xlsx>
@@ -13,8 +15,9 @@ catxls <file xls or file xlsx>
 ## 1. requirement
 - virtualenv
 - python 3+
+
 ## 2. setup
-  clone project and run `python setup.py develop`
-  test by run it `catxls -h`
+- clone project and run `python setup.py develop`
+- test by run it `catxls -h`
 
 
