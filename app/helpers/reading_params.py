@@ -7,13 +7,6 @@ import argparse
 import os
 
 
-def _check_file_exist(file_arg):
-  """ Check file is exits """
-  if not os.path.exist(file_arg):
-    raise argparse.ArgumentError('File %s doest exist', file_arg)
-  return file_arg
-
-
 __parser__ = argparse.ArgumentParser(description='input')
 __parser__.add_argument(
     action='store',
