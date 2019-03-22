@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 setup(
     name='catxls',
-    version='0.0.3',
+    version='0.0.4',
     packages=find_packages(
         '.',
         exclude=[
@@ -16,17 +16,20 @@ setup(
     author='huongnhd',
     author_email = 'huong.nhdh@gmail.com',
     url = 'https://github.com/huongnhdh/catxls.git',
-    download_url = 'https://github.com/huongnhdh/catxls/archive/v_003.tar.gz',
+    download_url = 'https://github.com/huongnhdh/catxls/archive/v_004.tar.gz',
     keywords = ['xls', 'xlsx', 'cat xlsx', 'server'],
     install_requires=[
       'pyexcel==0.5.13',
-      'pyexcel-xls==0.5.8'
+      'pyexcel-xls==0.5.8',
+      'chardet==3.0.4'
     ],
     classifiers=[
     'Development Status :: 4 - Beta',
     'Intended Audience :: System Administrators',
     'Topic :: System :: System Shells',
     'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 2',
+    'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
