@@ -3,7 +3,7 @@ catxlsx: Reading xlsx on server same cat command
 # Installation
 
 ```bash
-pip install catxls
+pip3 install catxls
 ```
 # How to use
 
@@ -16,7 +16,7 @@ catxls <file xls or file xlsx>
 - virtualenv
 - python 3+
 
-## 2. setup
+## 2. setup manual
 - clone project and run `python setup.py develop`
 - test by run it `catxls -h`
 
